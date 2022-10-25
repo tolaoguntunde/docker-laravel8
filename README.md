@@ -62,7 +62,8 @@ sudo git clone https://github.com/slimprepdevops/docker-laravel8.git .
 sudo chown -R $USER:$USER /var/www/html
 composer install
 ```
-    - enable applicaiton env
+- enable applicaiton env
+
 ```bash
 cp .env.example .env
 ```
