@@ -1,5 +1,6 @@
-## Docker Lumen NginX sample
+## Docker Laravel8 Docker sample
 
+- this repo contains a Dockerfile for deploying a Laravel8 application
 
 - Create docker Image
 
