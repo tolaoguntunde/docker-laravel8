@@ -24,7 +24,7 @@ pipeline {
         }
         stage('runApplication') {
             steps {
-                sh 'docker run -d -p 9000:80 tolaoguntunde/laravelapp'
+                sh 'docker run -d -p 9080:80 tolaoguntunde/laravelapp'
                 echo 'My first deployment successful'
                 echo 'My first deployment successful'
             }
