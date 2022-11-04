@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('buildphpimage') {
             steps {
@@ -26,6 +25,7 @@ pipeline {
         stage('runApplication') {
             steps {
                 sh 'docker run -d -p 9000:80 tolaoguntunde/laravelapp'
+                echo 'My first deployment successful'
             }
         }
     }
